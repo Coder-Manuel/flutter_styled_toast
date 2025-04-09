@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'custom_animation.dart';
 import 'custom_size_transition.dart';
 import 'styled_toast_enum.dart';
@@ -445,11 +444,7 @@ class _StyledToastState extends State<StyledToast> {
         );
 
     return Localizations(
-      delegates: const [
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
+      delegates: const [],
       locale: widget.locale,
       child: StyledToastTheme(
         textAlign: textAlign,

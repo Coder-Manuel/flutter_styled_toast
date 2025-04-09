@@ -4,14 +4,13 @@ description: A Styled Toast Flutter package. You can highly customize toast
 version: 2.2.1
 homepage: https://github.com/JackJonson/flutter_styled_toast
 email: yswing1@gmail.com
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
-    sdk: flutter
-  flutter_localizations:
     sdk: flutter
 
 dev_dependencies:
@@ -20,5 +19,3 @@ dev_dependencies:
   flutter_lints: ^2.0.2
   flutter_test:
     sdk: flutter
-
-flutter: null
